@@ -7,8 +7,6 @@ import VideoList from './components/video_list'
 
 const YOUTUBE_API_KEY = "AIzaSyAP46VxAjGPvFhlkfIFFKWtsRipV6yN6XM"
 
-
-
 class App extends Component {
     constructor(){
         super()
