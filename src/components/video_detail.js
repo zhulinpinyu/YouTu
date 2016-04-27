@@ -3,6 +3,12 @@ import React, {Component} from 'react'
 export default class VideoDetail extends Component{
     render(){
         const {video} = this.props
+        if(!video){
+            return (
+                <div>Loading...</div>
+            )
+        }
+
         const {videoId} = video.id
         const url = `https://www.youtube.com/embed/${videoId}`
         return (
