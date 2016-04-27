@@ -4,7 +4,7 @@ export default class SearchBar extends Component {
     render(){
         return (
             <div>
-                Search: <input />
+                Search: <input onChange={ e => console.log(e.target.value) }/>
             </div>
         )
     }
