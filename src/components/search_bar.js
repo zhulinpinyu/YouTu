@@ -1,9 +1,11 @@
-import React from 'react'
+import React,{Component} from 'react'
 
-export default class SearchBar extends React.Component {
+export default class SearchBar extends Component {
     render(){
         return (
-            <input />
+            <div>
+                Search: <input />
+            </div>
         )
     }
 }
