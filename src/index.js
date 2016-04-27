@@ -15,6 +15,7 @@ class App extends Component {
         this.state = {videos: []}
 
         YTSearch({key: YOUTUBE_API_KEY, term: "React"}, (videos) => {
+            console.log(videos)
             this.setState({videos})
         })
     }
